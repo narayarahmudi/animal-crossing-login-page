@@ -1,0 +1,29 @@
+.forgot-forms > .forgot-frame > h1 {
+    /* background-color: red; */
+    font-size: 22px;
+    font-weight: bold;
+    
+    margin-bottom: 24px;
+}
+
+
+.forgot-media {
+    display: flex;
+    flex-direction: column;
+    
+    margin: 2rem 0;
+    gap: .5rem;
+}
+
+.forgot-btn {
+    width: 100%;
+    padding: .9rem 1rem;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 1rem;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    
+    transition: .1s ease-out;
+}

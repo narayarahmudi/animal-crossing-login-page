@@ -1,0 +1,118 @@
+.sign-in-forms > .sign-in-frame > h1 {
+    /* background-color: red; */
+    font-size: 22px;
+    font-weight: bold;
+
+    margin-bottom: 24px;
+}
+
+
+.sign-in-media {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    margin-bottom: 2rem;
+}
+
+.google {
+    background-color: #333333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    font-weight: 500;
+}
+
+.google:hover {
+    background-color: #232222;
+}
+
+.google:active {
+    background-color: #333333;
+}
+
+.sign-in-btn {
+    width: 100%;
+    padding: .9rem 1rem;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 1rem;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+
+    transition: .1s ease-out;
+}
+
+.nintendo {
+    background-color: #ff0000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.nintendo:hover {
+    background-color: #ca0505;
+}
+
+.nintendo:active {
+    background-color: #ff0000;
+}
+
+.action {
+    display: flex;
+    justify-content: space-between;
+}
+
+.action > .remember-me {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.action > .remember-me > .switcher {
+    width: 40px;
+    height: 20px;
+    background-color: #f2f2f2;
+    border-radius: 12px;
+    padding: 3px;
+    cursor: pointer;
+    transition: background .2s ease-in-out;
+    
+    flex-shrink: 0;
+}
+
+.action > .remember-me > .switcher > .circle {
+    background-color: #ffffff;
+    border-radius: 50%;
+    width: 15px;
+    height: 100%;
+    transition: transform 0.3s ease; 
+}
+
+.action > .remember-me > span {
+    font-size: 14px;
+}
+
+.divider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 10px;
+    width: 100%;
+}
+
+.divider hr{
+    flex: 1;
+}
+
+/* INTERACTIVE */
+.action .remember-me .switcher.active {
+    background-color: #007AFF;
+}
+
+.action .remember-me .switcher.active .circle {
+    transform: translateX(18px);
+}

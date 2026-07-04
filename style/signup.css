@@ -1,0 +1,30 @@
+.sign-up-forms > .sign-up-frame > h1 {
+    /* background-color: red; */
+    font-size: 22px;
+    font-weight: bold;
+
+    margin-bottom: 24px;
+}
+
+.submit-btn {
+    width: 100%;
+    padding: .9rem 1rem;
+    background-color: #007AFF;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 1rem;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 2rem;
+
+    transition: .1s ease-out;
+}
+
+.sign-up-btn:hover {
+    background-color: #035cba;
+}
+
+.sign-up-btn:active {
+    background-color: #007AFF;
+}

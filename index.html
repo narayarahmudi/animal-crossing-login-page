@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Animal Crossing</title>
+
+    <link rel="stylesheet" href="style/base.css" />
+    <link rel="stylesheet" href="style/components.css" />
+    <link rel="stylesheet" href="style/layout.css" />
+    <link rel="stylesheet" href="style/responsives.css" />
+    <link rel="stylesheet" href="style/signin.css" />
+
+    <!-- Basic Icons -->
+    <link
+      href="https://cdn.boxicons.com/3.0.8/fonts/basic/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- Filled Icons -->
+    <link
+      href="https://cdn.boxicons.com/3.0.8/fonts/filled/boxicons-filled.min.css"
+      rel="stylesheet"
+    />
+    <!-- Brand Icons -->
+    <link
+      href="https://cdn.boxicons.com/3.0.8/fonts/brands/boxicons-brands.min.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="image-frame">
+        <img
+          width="240"
+          height="240"
+          src="https://img.icons8.com/color/240/animal-crossing.png"
+          alt="animal-crossing"
+        />
+      </div>
+      <div class="frame">
+        <div class="logo">
+          <img
+            width="48"
+            height="48"
+            src="https://img.icons8.com/color/48/animal-crossing.png"
+            alt="animal-crossing"
+          />
+          <span>Animal Crossing</span>
+        </div>
+
+        <form action="" class="sign-in-forms">
+          <div class="sign-in-frame">
+            <h1>Nice to meet you again</h1>
+            <div class="input-container">
+              <label for="login">Login</label>
+              <input
+                required
+                type="email"
+                id="login"
+                placeholder="Enter email"
+              />
+              <label for="password">Password</label>
+              <input
+                required
+                type="password"
+                id="password"
+                placeholder="Enter password"
+                minlength="6"
+              />
+
+              <div class="action">
+                <div class="remember-me">
+                  <div class="switcher" id="switch">
+                    <div class="circle" id="circle"></div>
+                  </div>
+                  <span>Remember me</span>
+                </div>
+                <a class="forgot-password link" href="/app/forgot/">Forgot Password?</a>
+              </div>
+            </div>
+
+            <button type="submit" class="submit-button">Sign in</button>
+          </div>
+        </form>
+
+        <div class="sign-in-media">
+          <div class="divider">
+            <hr />
+            <span>Or</span>
+            <hr />
+          </div>
+          <button type="button" class="sign-in-btn google">
+            <img
+              width="24"
+              height="24"
+              src="https://img.icons8.com/color/48/google-logo.png"
+              alt="google-logo"
+            />
+            <span>Sign in with Google</span>
+          </button>
+          <button type="button" class="sign-in-btn nintendo">
+            <img
+              width="24"
+              height="24"
+              src="https://img.icons8.com/office/40/nintendo-switch-logo.png"
+              alt="nintendo-switch-logo"
+            />
+            <span>Sign in with Nintendo</span>
+          </button>
+        </div>
+
+        <div class="method">
+          <span>Don't have an account?</span>
+          <a href="app/signup/" class="link">Sign up now</a>
+        </div>
+
+        <div class="footer">
+          <div class="logo-footer">
+            <img
+              width="32"
+              height="32"
+              src="https://img.icons8.com/color/48/animal-crossing.png"
+              alt="animal-crossing"
+            />
+            <a href="#" class="link">@animalcrossing</a>
+          </div>
+          <footer
+            style="
+              font-family:
+                &quot;Franklin Gothic Medium&quot;, &quot;Arial Narrow&quot;,
+                Arial, sans-serif;
+            "
+          >
+            &copy Animal Crossing 2026
+          </footer>
+        </div>
+      </div>
+    </div>
+    <script src="src/main.js"></script>
+  </body>
+</html>
